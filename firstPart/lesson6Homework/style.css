@@ -1,0 +1,20 @@
+body {
+		background: lightblue;
+		font-family: sans-serif;
+}
+fieldset {
+		margin: 0 auto;
+		width: 400px;
+		text-align: center;
+		border-color: black;
+}
+h1 {
+		text-align: center;
+}
+#submit {
+		border: 0px;
+		border-radius: 30px;
+}
+#submit:hover {
+		cursor: pointer;
+}

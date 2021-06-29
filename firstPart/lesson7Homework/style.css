@@ -1,0 +1,101 @@
+#aboutUs {
+    width: 82px;
+}
+#submitHeader {
+    margin-right: 40px;
+    border-radius: 50px;
+    background: white;
+    color: orange;
+    border: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#header {
+    background: #D8D0B5 !important;
+}
+.nav-item {
+    margin-right: 25px;
+}
+#firstContainer .row p {
+    position: absolute;
+    margin-left: 74.5px;
+    margin-top: 225px;
+    color: white;
+}
+#firstContainer img{
+    position: absolute;
+}
+#firstContainer {
+    background: #D8D0B5;
+    height: 420px;
+}
+#departmentDiv {
+    width: 70%;
+    margin: 0 auto !important;
+    text-align: center;
+}
+#firstTable .col-md-12, #firstTable .col-md-6, #firstTable .col-md-3 {
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#firstTable .col-md-12 {
+    border: 2px solid blue;
+    color: blue;
+    background: lightblue;
+}
+#firstTable .col-md-6 {
+    border: 2px solid #740090;
+    color: #740090;
+    background: #BA75CA;
+    width: 49%;
+    margin-right: 2%;
+}
+#firstTable .col-md-3 {
+    border: 2px solid #E30045;
+    color: #E30045;
+    background: #E04E7A;
+    width: 23.5%;
+    margin-right: 2%;
+}
+.lastMarginSet {
+    margin-right: 0% !important;
+}
+#secondTable {
+    height: 990px;
+    margin-bottom: 50px;
+}
+#secondTable div {
+    margin-top: 30px;
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+#secondTable1 {
+    padding-top: 125px;
+    background: blue;
+}
+#secondTable2 {
+    background: gray;
+    padding-top: 125px;
+    width: 49%;
+    margin-right: 2%;
+}
+.secondTable34 {
+    background: #E30045;
+    padding-top: 125px;
+}
+#secondTable3 {
+    width: 49%;
+}
+#thirdTable div div{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 27px;
+    height: 100px;
+    border: 2px solid black;
+    border-top: 0px;
+    background: gray;
+    border-left: 0px;
+}

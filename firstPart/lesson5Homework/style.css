@@ -1,0 +1,25 @@
+#purpleMood {
+		text-shadow: 2px 2px 3px #800080;
+}
+#skyMood {
+		text-shadow: 2px 2px 3px #87CEEB;
+}
+#orangeMood {
+		text-shadow: 2px 2px 3px orange;
+}
+#iframe_parent_div div {
+		display: inline-block;
+		margin-left: 50px;
+}
+#emoji {
+		font-size: 50px;
+}
+#up {
+		text-transform: uppercase;
+}
+#low {
+		text-transform: lowercase;
+}
+#middle {
+		text-transform: capitalize;
+}

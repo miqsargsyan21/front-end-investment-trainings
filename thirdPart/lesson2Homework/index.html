@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Profile</title>
+</head>
+<body>
+    <!--Header-->
+    <div id="header" class="container-fluid">
+        <div class="row justify-content-evenly">
+            <div id="profileHeaderText" class="col-md-2">
+                <p>Profile</p>
+            </div>
+            <div class="col-md-7 orange"></div>
+            <div id="homeUser" class="col-md-3">
+                <ul>
+                    <li id="home">Home</li>
+                    <span class="userGrey">/</span>
+                    <li class="userGrey">User</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Profile picture-->
+    <div class="container-fluid">
+        <div class="row justify-content-evenly">
+            <div class="col-md-3 orange">
+                <div id = "mainProfile">
+                    <div id = "mainProfile2">
+                        <div id = "profilePicture">
+                            <img src="photos/profilePicture.png">
+                            <h6>Jack Arce</h6>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div id = "profileFollowers">
+                            <span class = "textForLeft">Followers</span>
+                            <span class = "textForRight">12,345</span>
+                        </div>
+                        <div id = "profileFollowings">
+                            <span class = "textForLeft">Followings</span>
+                            <span class = "textForRight">12,345</span>
+                        </div>
+                        <div id = "profileFriends">
+                            <span class = "textForLeft">Friends</span>
+                            <span class = "textForRight">12,345</span>
+                        </div>
+                        <div id = "verticalCenter">
+                            <button type="button" class="btn btn-info" id = "buttonOfFollow">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <!--About me-->
+                <div id="aboutDiv">
+                    <div id="aboutMe">
+                        <div class = "divStyling">
+                            <p>About me</p>
+                        </div>
+                    </div>
+                    <div id="education">
+                        <div class = "divStyling">
+                            <strong><i class="fa fa-book" aria-hidden="true"></i>  Education</strong>
+                            <p>B.S. in Computer Science from the University of Tennessee at Knoxville</p>
+                        </div>
+                    </div>
+                    <div id="location">
+                        <div class = "divStyling">
+                            <strong><i class="fa fa-map-marker" aria-hidden="true"></i>  Location</strong>
+                            <p>Malibu, California</p>
+                        </div>
+                    </div>
+                    <div id="skills">
+                        <div class = "divStyling">
+                            <strong><i class="fa fa-pencil" aria-hidden="true"></i>  Skills</strong>
+                            <p>UI Design Coding Javascript PHP Node.js</p>
+                        </div>
+                    </div>
+                    <div id="notes">
+                        <div class = "divStyling">
+                            <strong><i class="fa fa-sticky-note-o" aria-hidden="true"></i>  Notes</strong>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Main content-->
+            <div class="col-md-9 green">
+                <div id="navForContent">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="elementActivity" aria-current="page" style="background: lightblue" href="#activity" data-toggle="tab">Activity</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="elementTimeline" href="#timeline">Timeline</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="elementSetings" href="#setings">Setings</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Activity-->
+                <div id="activityContent" class = "container-fluid">
+                    <div class = "row justify-content-evenly container-fluid partsOfContain">
+                        <div class = "col-md-12 orange row justify-content-evenly">
+                            <div class="col-md-1">
+                                <img src="photos/pp2.png">
+                            </div>
+                            <div class="col-md-11">
+                                <p>Cezar Navas</p>
+                                <span>Shared publicly - 7:30 PM today</span>
+                            </div>
+                        </div>
+                        <div class = "col-md-12 orange" style = "margin-top: 10px;">
+                            <span>Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some 
+                                people hate it and argue for its demise, but others ignore the hate as they create awesome
+                                tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans.</span>
+                        </div>
+                        <div class = "col-md-12 orange row justify-content-evenly">
+                            <div class="col-md-6">
+                                <i class="fa fa-share" aria-hidden="true"></i><strong>Share</strong>
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i><strong>Like</strong>
+                            </div>
+                            <div class="col-md-6">
+                                <div id = "commentsDiv">
+                                    <i class="fa fa-comments-o" aria-hidden="true"></i><strong>Comments(123)</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="comment" class="form-label"></label>
+                            <input type="text" id="comment" class="form-control" placeholder="Type a comment">
+                        </div>
+                    </div>
+                    <div class = "row justify-content-evenly container-fluid partsOfContain">
+                        <div class = "col-md-12 orange row justify-content-evenly">
+                            <div class="col-md-1">
+                                <img src="photos/pp3.png">
+                            </div>
+                            <div class="col-md-11">
+                                <p>Diego Gomez</p>
+                                <span>Shared publicly - 3 days ago</span>
+                            </div>
+                        </div>
+                        <div class = "col-md-12 orange" style = "margin-top: 10px;">
+                            <span>Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some 
+                                people hate it and argue for its demise, but others ignore the hate as they create awesome
+                                tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans.</span>
+                        </div>
+                        <div class = "col-md-12 orange row justify-content-evenly">
+                            <div class="col-md-6">
+                                <i class="fa fa-share" aria-hidden="true"></i><strong>Share</strong>
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i><strong>Like</strong>
+                            </div>
+                            <div class="col-md-6">
+                                <div id = "commentsDiv">
+                                    <i class="fa fa-comments-o" aria-hidden="true"></i><strong>Comments(123)</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="comment" class="form-label"></label>
+                            <input type="text" id="comment" class="form-control" placeholder="Type a comment">
+                        </div>
+                    </div>
+                </div>
+                <!--timeline-->
+                <div id="timelineContent" class = "container-fluid" style="display: none;">
+                    <div class = "row justify-content-evenly container-fluid allItems">
+                        <div class = "col-md-12 orange row justify-content-evenly itemsTimeline" id="headerItem">
+                            <div class = "col-md-8 orange">
+                                <p><strong>Support Team</strong> sent you an email</p>
+                            </div>
+                            <div class = "col-md-4 orange" style="padding: 10px;">
+                                <div class = "timeOfTimeline">
+                                    <i class="fa fa-bell-o" aria-hidden="true">  12:34</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-md-12 orange row justify-content-evenly itemsTimeline" id="footerItem">
+                            <div class = "col-md-12 orange" style="padding: 10px;">
+                                <p>Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango 
+                                    imeem plugg dopplr jibjab, movity jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo 
+                                    kaboodle quora plaxo ideeli hulu weebly balihoo...</p>
+                                <button type="button" class="btn btn-primary">Read more</button>
+                                <button type="button" class="btn btn-danger">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row justify-content-evenly container-fluid allItems">
+                        <div class = "col-md-12 orange row justify-content-evenly itemsTimeline" id="headerItem">
+                            <div class = "col-md-8 orange">
+                                <p><strong>Sarah Young</strong> accepted your friend request</p>
+                            </div>
+                            <div class = "col-md-4 orange" style="padding: 10px;">
+                                <div class = "timeOfTimeline">
+                                    <i class="fa fa-bell-o" aria-hidden="true">  5 mins ago</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row justify-content-evenly container-fluid allItems">
+                        <div class = "col-md-12 orange row justify-content-evenly itemsTimeline" id="headerItem">
+                            <div class = "col-md-8 orange">
+                                <p><strong>Nick Jensen</strong> commented on your post</p>
+                            </div>
+                            <div class = "col-md-4 orange" style="padding: 10px;">
+                                <div class = "timeOfTimeline">
+                                    <i class="fa fa-bell-o" aria-hidden="true">  27 mins ago</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-md-12 orange row justify-content-evenly itemsTimeline" id="footerItem">
+                            <div class = "col-md-12 orange" style="padding: 10px;">
+                                <p>Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango 
+                                    imeem plugg dopplr jibjab, movity jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo 
+                                    kaboodle quora plaxo ideeli hulu weebly balihoo...</p>
+                                <button type="button" class="btn btn-warning">View comment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Setings-->
+                <div id="setingsContent" class = "container-fluid" style="display: none;">
+                    <div class = "row justify-content-evenly container-fluid">
+                        <div class = "col-md-3 orange row justify-content-evenly">
+                            <p>Name</p>
+                        </div>
+                        <div class = "col-md-9 orange row justify-content-evenly">
+                            <label for="name" class="form-label"></label>
+                            <input type="text" id="name" class="form-control" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class = "row justify-content-evenly container-fluid">
+                        <div class = "col-md-3 orange row justify-content-evenly">
+                            <p>Surname</p>
+                        </div>
+                        <div class = "col-md-9 orange row justify-content-evenly">
+                            <label for="surname" class="form-label"></label>
+                            <input type="text" id="surname" class="form-control" placeholder="Surname">
+                        </div>
+                    </div>
+                    <div class = "row justify-content-evenly container-fluid">
+                        <div class = "col-md-3 orange row justify-content-evenly">
+                            <p>Email</p>
+                        </div>
+                        <div class = "col-md-9 orange row justify-content-evenly">
+                            <label for="email" class="form-label"></label>
+                            <input type="text" id="email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class = "row justify-content-evenly container-fluid">
+                        <div class = "col-md-3 orange row justify-content-evenly">
+                            <p>Experience</p>
+                        </div>
+                        <div class = "col-md-9 orange row justify-content-evenly">
+                            <label for="experience" class="form-label"></label>
+                            <textarea id="experience" name="experience" class="form-control" placeholder="Experience"></textarea>
+                        </div>
+                    </div>
+                    <div class = "row justify-content-evenly container-fluid">
+                        <div class = "col-md-3 orange row justify-content-evenly">
+                            <p>Skills</p>
+                        </div>
+                        <div class = "col-md-9 orange row justify-content-evenly">
+                            <label for="skills" class="form-label"></label>
+                            <input type="text" id="skills" class="form-control" placeholder="Skills">
+                        </div>
+                    </div>
+                    <div class = "row justify-content-evenly container-fluid">
+                        <div class = "col-md-3 orange row justify-content-evenly"></div>
+                        <div class = "col-md-9 orange row justify-content-evenly">
+                            <form>
+                                <input type="checkbox" id="checkboxTerms">
+                                <label for="checkboxTerms">I agree to the <span>terms and conditions</span></label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class = "row justify-content-evenly container-fluid">
+                        <div class = "col-md-3 orange row justify-content-evenly"></div>
+                        <div class = "col-md-9 orange row justify-content-evenly">
+                            <button type="button" class="btn btn-danger">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

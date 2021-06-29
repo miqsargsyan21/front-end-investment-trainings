@@ -1,0 +1,152 @@
+/*Header start*/
+#profileHeaderText p {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+}
+#header ul li {
+    display: inline;
+}
+#homeUser {
+    text-align: end;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+}
+#home {
+    color: lightblue;
+}
+.userGrey {
+    color: darkgrey;
+}
+/*Header end*/
+/*Main profile start*/
+#mainProfile {
+    border: 0.5px solid darkgrey;
+    border-top: 5px solid lightblue;
+    border-radius: 5%;
+}
+#mainProfile2 {
+    margin: 10px;
+}
+#profilePicture {
+    margin-top: 15px;
+    text-align: center;
+    border-bottom: 0.5px solid darkgrey;
+}
+#profilePicture p {
+    color: darkgrey;
+}
+#profilePicture img {
+    border: 3px solid darkgrey;
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+    padding: 2px;
+}
+#profileFollowers, #profileFollowings, #profileFriends {
+    border-bottom: 0.5px solid darkgrey;
+    padding: 10px;
+}
+.textForRight {
+    color: lightblue;
+    float: right;
+}
+.textForLeft {
+    font-weight: bold;
+}
+#verticalCenter {
+    width: 100%;
+}
+#buttonOfFollow {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+/*Main profile end*/
+/*About me start*/
+#aboutDiv {
+    margin-top: 20px;
+    border: 0.5px solid darkgrey;
+}
+#aboutMe {
+    background: lightblue;
+    color: white;
+}
+.divStyling {
+    width: 80%;
+    margin-left: 10%;
+}
+#aboutMe p {
+    font-size: 30px;
+}
+#education div, #location div, #skills div {
+    border-bottom: 0.5px solid darkgrey;
+}
+/*About me end*/
+/*Main contain*/
+#activityContent {
+    margin-top: 20px;
+}
+#activityContent img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid darkgrey;
+    border-radius: 50%;
+    padding: 2px;
+}
+#activityContent p {
+    color: lightblue;
+    margin-bottom: 0px;
+}
+#activityContent span {
+    color: darkgrey;
+}
+#commentsDiv {
+    float: right;
+}
+#activityContent strong {
+    margin-left: 7px;
+    margin-right: 10px;
+}
+.partsOfContain {
+    margin-top: 20px !important;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid darkgrey;
+}
+/*Timeline*/
+.timeOfTimeline {
+    float: right;
+    color: darkgrey;
+}
+#timelineContent strong {
+    color: lightblue;
+}
+.itemsTimeline {
+    border: 0.5px solid darkgrey;
+}
+#headerItem {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+#headerItem p {
+    margin-top: 10px;
+}
+.allItems {
+    margin-top: 15px !important;
+}
+/*Setings*/
+#setingsContent button {
+    width: 30%;
+    margin-top: 10px;
+}
+#setingsContent form {
+    margin-top: 10px;
+}
+#setingsContent form span {
+    color: lightblue;
+    cursor: pointer;
+}
+#setingsContent {
+    margin-top: 30px;
+}
