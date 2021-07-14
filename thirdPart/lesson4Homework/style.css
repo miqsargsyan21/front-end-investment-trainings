@@ -1,0 +1,23 @@
+.itemsHeader {
+    display: inline-block;
+    padding: 10px;
+    float: right;
+}
+.itemsHeader:hover, #firstItemHeader:hover {
+    background: grey;
+    cursor: pointer;
+}
+#firstItemHeader {
+    display: inline-block;
+    padding: 10px;
+    float: left;
+}
+#seasonalSpan {
+    background: lightgray;
+}
+form {
+    margin: 5%;
+}
+.form-control {
+    margin-top: 15px;
+}

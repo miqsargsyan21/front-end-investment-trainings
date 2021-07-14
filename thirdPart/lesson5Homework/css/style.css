@@ -1,0 +1,19 @@
+.countriesContent {
+    background: lightblue;
+    padding: 20px;
+    border: 1px solid grey;
+}
+.mainContent {
+    margin: 15px;
+}
+.myText {
+    text-align: center;
+    font-family: fantasy;
+}
+#selectDiv {
+    width: 490px;
+    margin: auto;
+}
+#myButton {
+    margin-left: 13px;
+}

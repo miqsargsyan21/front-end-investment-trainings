@@ -1,0 +1,2674 @@
+/*------------------------------------------------
+                    navbar
+------------------------------------------------*/
+@media (max-width: 480px) {
+    .navbar {
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .dropdown-item {
+        color: #1d495b;
+        text-align: center;
+        padding: 2px;
+    }
+
+    .navbar {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .navbar-brand img {
+        height: 83px;
+        width: 182px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #1d495b;
+        font-size: 25px;
+        padding-right: 38px;
+    }
+
+    .dropdown-item {
+        color: #1d495b;
+        text-align: center;
+        padding: 2px;
+        font-size: 25px;
+    }
+
+
+}
+
+/*--------------------------------------------------
+                      offert
+--------------------------------------------------*/
+@media (min-width: 320px) and (max-width: 767px) {
+    .navCloseButton {
+        left: 40%;
+    }
+    .offert {
+        width: 310px;
+        margin: 5px auto 5px;
+    }
+
+    .offert .col-50 {
+        margin: 5px auto;
+        display: block;
+        padding-left: 19px;
+        float: none;
+        margin-bottom: 13px;
+    }
+
+    .offert .col-75 {
+        float: none;
+        width: 217px;
+        margin-right: 0;
+    }
+
+    .offert select {
+        width: 218px;
+        padding: 8px;
+    }
+
+    .offert textarea {
+        width: 216px;
+    }
+
+    .closeButton {
+        left: 80%;
+    }
+
+    .offert h4 {
+        font-size: 17px;
+    }
+
+    .offert label {
+        font-size: 15px;
+        padding-left: 5px;
+        margin-bottom: 0;
+    }
+
+    .offert input[type=text] {
+        width: 100%;
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    .textArea {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .addr {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+    .overlay-content {
+        z-index: 111;
+        margin: 10% auto 0;
+        padding-bottom: 20px;
+    }
+    .offert{
+        margin: -8% auto 0;
+    }
+}
+
+@media (min-width: 1100px) {
+    .navCloseButton {
+        left: 45%;
+    }
+    .overlay-content {
+        margin: 1% auto 0;
+    }
+    .offert{
+        margin: 2% auto 0;
+    }
+}
+
+/*-------------------------------------------------
+                        main
+--------------------------------------------------*/
+@media (max-width: 320px) {
+    hr {
+        margin: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section hr {
+        width: 157px;
+    }
+
+    .home-intro-content h1 {
+        font-size: 26px;
+        font-weight: 800;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .home-intro-content p {
+        font-size: 20px;
+        margin-top: 31px;
+        line-height: 26px
+    }
+
+    .home-intro-content button {
+        width: 168px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .home-intro-content {
+        padding: 7em 0;
+        text-align: center;
+    }
+
+    .main {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main-h {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .main-p {
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .main-btn {
+        width: 166px;
+        font-size: 16px;
+        margin: 0;
+        height: 32px;
+    }
+
+    .title {
+        font-size: 19px;
+        padding-top: 17px;
+        color: #1d495b;
+        margin-bottom: 20px;
+        font-weight: bold
+    }
+
+    .vara {
+        font-size: 14px;
+    }
+
+    .for-img {
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 40px;
+    }
+
+    .for-omOssOne {
+        height: 78px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .for-rotavdrag {
+        height: auto;
+    }
+
+    .rotav-img {
+        border-radius: 5px;
+        height: 184px;
+        margin-top: 20px;
+    }
+
+    .for-omOssTwo {
+        margin-top: 0;
+    }
+
+    .section {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-item {
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .navbar {
+        margin-left: 0;
+    }
+
+    .carousel-caption {
+        top: 85px !important;
+    }
+
+    .card-body {
+        text-align: center;
+        padding-bottom: 0;
+        height: 56px;
+        border-radius: 0 0 5px 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .for-icon .title {
+        padding-top: 4px;
+        padding-right: 50px;
+        margin-left: 12px;
+    }
+
+    .overlay a {
+        font-size: 20px;
+    }
+
+    .for-imgBlock {
+        border-radius: 10px;
+    }
+
+    .section ul i {
+        font-size: 29px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 374px) {
+    .card-title {
+        padding: 0;
+        margin: 0;
+    }
+
+    hr {
+        margin: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section hr {
+        width: 145px;
+    }
+
+    .section ul i {
+        font-size: 27px;
+    }
+
+    .home-intro-content {
+        padding: 6em 0 !important;
+    }
+
+    .home-intro-content h1 {
+        font-size: 36px;
+        width: 303px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .home-intro-content p {
+        font-size: 23px;
+        margin-bottom: 63px;
+        margin-top: 28px;
+    }
+
+    .home-intro-content button {
+        width: 151px;
+        font-size: 15px;
+    }
+
+    .for-imgBlock {
+        height: 183px;
+        border-radius: 5px;
+    }
+
+    .for-img {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .main {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main-h {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .main-p {
+        font-size: 18px;
+        margin-bottom: 50px;
+        line-height: 2;
+    }
+
+    .main-btn {
+        width: 166px;
+        font-size: 16px;
+        margin: 0;
+        height: 32px;
+    }
+
+    .title {
+        font-size: 19px;
+        padding-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .vara {
+        font-size: 15px;
+    }
+
+    .for-varaBlock {
+        padding-top: 10px;
+    }
+
+    .portfolio-item {
+        margin-top: 10px;
+        justify-content: center;
+        display: flex;
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .carousel-caption {
+        top: 85px !important;
+    }
+
+    .card-body {
+        text-align: center;
+        padding: 0;
+        height: 69px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .for-icon .title {
+        padding-top: 4px;
+        padding-right: 50px;
+        margin-left: 12px;
+    }
+
+    .overlay a {
+        font-size: 22px;
+    }
+
+    .for-rotavdrag {
+        height: auto;
+    }
+
+    .rotav-img {
+        height: 196px;
+        margin-top: 20px;
+    }
+
+    .for-omOssOne {
+        height: 69px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .for-omOssTwo {
+        height: 140px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .section {
+        height: 335px;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .row {
+        margin: 0;
+    }
+
+    .card-title {
+        margin: 0;
+    }
+
+    hr {
+        margin: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .home-intro-content {
+        padding: 10em 0;
+    }
+
+    .offert input[type=submit] {
+        display: block;
+        margin: 10px auto 30px;
+    }
+
+    .col-sm-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main p {
+        font-size: 17px !important;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .main h1 {
+        text-align: center !important;
+        width: 299px;
+        display: block;
+        margin: 0 auto 10px;
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .for-imgBlock {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .for-img {
+        padding-left: 0;
+        padding-bottom: 0px;
+        margin-bottom: 30px;
+    }
+
+    .for-rotavdrag {
+        height: auto;
+    }
+
+    .rotav-img {
+        border-radius: 5px;
+        height: 215px;
+        margin-top: 20px;
+    }
+
+    form {
+        width: 295px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section {
+        background-color: #b1b1b1;
+        width: 311px;
+        margin-top: 25px;
+        margin-left: 0;
+        height: 342px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+
+    .for-omOssTwo {
+        height: 140px;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .for-omOssOne {
+        height: 83px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .main-h {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .main-p {
+        font-size: 20px;
+        margin-bottom: 60px;
+        line-height: 2;
+    }
+
+    .main-btn {
+        width: 166px;
+        font-size: 16px;
+        margin: 0;
+        height: 32px;
+    }
+
+    .title {
+        font-size: 21px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+
+    }
+
+    .for-rotavdrag .title {
+        width: 355px;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .for-varaBlock .title {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 15px;
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+
+    .carousel-caption {
+        top: 85px !important;
+    }
+
+    .card-body {
+        text-align: center;
+        padding-bottom: 1px;
+        height: 68px;
+        border-radius: 0 0 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .for-icon .title {
+        font-size: 20px;
+        padding-top: 4px;
+        padding-right: 50px;
+        margin-left: 12px;
+    }
+
+    .for-lastBox h2 {
+        padding-top: 0 !important;
+    }
+
+    .home-intro-content h1 {
+        font-size: 34px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .home-intro-content p {
+        font-size: 26px;
+        margin-bottom: 50px;
+        margin-top: 44px;
+    }
+
+    .home-intro-content button {
+        width: 180px;
+        font-size: 15px;
+        height: 43px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 480px) {
+
+    .row {
+        margin: 0;
+    }
+
+    .home-intro-content {
+        padding: 8em 0;
+    }
+
+    .col-sm-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main p {
+        font-size: 19px !important;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .main h1 {
+        text-align: center !important;
+        font-size: 20px;
+        width: 299px;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .for-imgBlock {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .for-img {
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 30px;
+    }
+
+    .for-rotavdrag {
+        height: auto;
+    }
+
+    .rotav-img {
+        border-radius: 5px;
+        height: 215px;
+        margin-top: 20px;
+    }
+
+    form {
+        width: 295px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section {
+        background-color: #b1b1b1;
+        width: 311px;
+        margin-top: 25px;
+        margin-left: 0;
+        height: 342px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+
+    .for-omOssTwo {
+        height: 140px;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .for-omOssOne {
+        height: 83px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .main-h {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .main-p {
+        font-size: 20px;
+        margin-bottom: 60px;
+        line-height: 2;
+    }
+
+    .main-btn {
+        width: 166px;
+        font-size: 16px;
+        margin: 0;
+        height: 32px;
+    }
+
+    .title {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+
+    }
+
+    .for-rotavdrag .title {
+        width: 355px;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .for-varaBlock .title {
+        font-size: 17px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .carousel-caption {
+        top: 85px !important;
+    }
+
+    .card-body {
+        text-align: center;
+        padding-bottom: 0;
+        height: 67px;
+        border-radius: 0 0 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .for-icon .title {
+        font-size: 19px;
+        padding-top: 4px;
+        padding-right: 50px;
+        margin-left: 12px;
+    }
+
+    .for-lastBox h2 {
+        padding-top: 0 !important;
+    }
+
+    .home-intro-content h1 {
+        font-size: 35px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .home-intro-content p {
+        font-size: 25px;
+        margin-top: 46px;
+    }
+
+    .home-intro-content button {
+        width: 162px;
+        font-size: 14px;
+        height: 39px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .for-omOssTwo {
+        margin-top: 0;
+    }
+
+    .for-rotavdrag {
+        height: auto;
+    }
+
+    .main-h {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    .main-p {
+        font-size: 22px;
+        margin-bottom: 70px;
+        line-height: 31px;
+    }
+
+    .main-btn {
+        width: 178px;
+        font-size: 17px;
+        margin: 0;
+        height: 35px;
+    }
+
+    .title {
+        font-size: 19px;
+        padding-top: 30px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .carousel-caption {
+        top: 85px !important;
+    }
+
+    .card-body {
+        border-radius: 5px;
+        text-align: center;
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+
+    .for-icon .title {
+        font-size: 19px;
+        padding-top: 4px;
+        padding-right: 50px;
+        margin-left: 12px;
+    }
+
+    .for-lastBox h2 {
+        padding-top: 0 !important;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .for-omOssTwo {
+        margin-top: 0;
+    }
+
+    .section {
+        background-color: #b1b1b1;
+        width: 332px;
+        margin-top: 25px;
+        margin-left: 65px;
+        height: 342px;
+        border-radius: 5px;
+        display: block;
+    }
+
+    .section hr {
+        width: 174px;
+    }
+
+    .card-title {
+        margin-top: 2.75rem;
+    }
+
+    .for-rotavdrag {
+        height: auto;
+    }
+
+    .main {
+        padding-left: 70px;
+        padding-right: 60px;
+    }
+
+    .main-h {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .main-p {
+        font-size: 20px;
+        margin-bottom: 60px;
+        line-height: 2;
+    }
+
+    .main-btn {
+        width: 166px;
+        font-size: 16px;
+        margin: 0;
+        height: 32px;
+    }
+
+    .title {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .carousel-caption {
+        top: 85px !important;
+    }
+
+    .card-body {
+        border-radius: 5px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .for-icon .title {
+        font-size: 16px;
+        padding-top: 4px;
+        padding-right: 50px;
+        margin-left: 12px;
+    }
+
+    .for-lastBox h2 {
+        padding-top: 0 !important;
+    }
+
+    .for-varaBlock .card-title {
+        margin-top: 0;
+        height: 80px;
+        padding-top: 44px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .box-for-vara {
+        min-height: 326px;
+        padding-bottom: 0;
+    }
+
+    .offert input[type=submit] {
+        outline: none;
+        display: block;
+    }
+
+    .home-intro-content {
+        font-size: 30px;
+        margin-bottom: 33px;
+        padding: 4em 0;
+    }
+
+    .home-intro-content h1 {
+        font-size: 35px !important;
+        line-height: 45px;
+        width: 358px;
+        display: block;
+        margin: 41px auto;
+    }
+
+    .home-intro-content p {
+        font-size: 22px !important;
+        line-height: 30px;
+        margin-bottom: 42px;
+    }
+
+    .section ul i {
+        font-size: 25px;
+        margin-right: 50px;
+        color: #1d495b;
+        margin-top: 20px;
+    }
+
+    .home-intro-content button {
+        height: 41px;
+        width: 176px;
+        font-size: 18px;
+    }
+
+    .section p {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .offert .col-75 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: 950px !important;
+    }
+
+    .for-varaBlock {
+        background-color: white !important;
+    }
+
+    .for-rotavdrag {
+        height: 862px;
+    }
+
+    .rotav-img {
+        border-radius: 5px;
+        height: 245px;
+        margin-top: 34px;
+        margin-bottom: 20px;
+    }
+
+    .for-omOssOne {
+        height: 81px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .for-omOssTwo {
+        height: 96px;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .box-for-valkommen p {
+        font-size: 15px !important;
+    }
+
+    .main {
+        padding-left: 70px;
+        padding-right: 60px;
+        height: 862px;
+    }
+
+    .section {
+        margin-left: 5px;
+    }
+
+    .section h4 {
+        font-size: 16px;
+    }
+
+    .section hr {
+        width: 154px;
+    }
+
+    .main {
+        padding-left: 70px;
+        padding-right: 60px;
+    }
+
+    .main-h {
+        margin-bottom: 53px;
+        font-size: 40px;
+    }
+
+    .carousel-caption {
+        top: 255px !important;
+    }
+
+    .title {
+        padding-top: 20px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .card-title {
+        margin: 0;
+        text-align: center;
+    }
+
+    .vara {
+        font-size: 12px;
+    }
+
+    .card-body {
+        background-color: #f1f1f1;
+        border-radius: 0 0 5px 5px;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .for-icon .title {
+        padding-top: 0;
+        margin-left: 10px;
+        font-size: 17px;
+    }
+
+    .for-icon i {
+        color: #1d495b;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .for-varaImg {
+        border-radius: 5px;
+        padding: 0;
+    }
+}
+
+@media only screen
+and (min-device-width: 834px)
+and (max-device-width: 834px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .home-intro-content {
+        padding: 25em 0;
+        text-align: center;
+    }
+
+    .home-intro-content h1 {
+        font-size: 50px;
+
+    }
+
+    .home-intro-content p {
+        font-size: 31px;
+        line-height: 45px;
+        margin-bottom: 88px;
+        margin-top: 78px;
+    }
+
+    .home-intro-content button {
+        height: 51px;
+        width: 190px;
+        border-radius: 10px;
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .main {
+        padding-left: 70px;
+        padding-right: 60px;
+        height: 1204px !important;
+    }
+
+    .main-h {
+        margin-bottom: 53px;
+        font-size: 30px;
+    }
+
+    .main-p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .main-btn {
+        width: 181px;
+        font-size: 16px;
+        height: 35px;
+    }
+
+    .carousel-caption {
+        top: 110px !important;
+    }
+
+    .title {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .card-title {
+        margin: 0;
+        text-align: center;
+    }
+
+    .vara {
+        font-size: 15px;
+    }
+
+    .card-body {
+        padding-top: 22px;
+        padding-bottom: 9px;
+    }
+
+    .for-icon .title {
+        padding-top: 0;
+        margin-left: 10px;
+    }
+
+    .globeCont {
+        display: flex;
+        flex-direction: column;
+        margin: 22% auto 0;
+    }
+
+    .overlay a {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .rotav-img {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .offert .col-75 {
+        float: left;
+        width: 495px;
+        margin-right: 22px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .box-for-vara {
+        min-height: 369px;
+    }
+
+    .home-intro-content {
+        padding: 6em 0;
+        text-align: center;
+    }
+
+    .card-title {
+        margin-top: 1.75rem;
+    }
+
+    .home-intro-content h1 {
+        font-size: 32px;
+        display: block;
+        margin: 41px auto;
+
+    }
+
+    .home-intro-content p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .home-intro-content button {
+        height: 33px;
+        width: 162px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .img-fluid {
+        border-radius: 5px;
+        padding: 0;
+    }
+
+    .main {
+        padding-left: 70px;
+        padding-right: 60px;
+    }
+
+    .main-h {
+        margin-bottom: 53px;
+        font-size: 30px;
+    }
+
+    .main-p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .main-btn {
+        width: 181px;
+        font-size: 16px;
+        height: 35px;
+    }
+
+    .carousel-caption {
+        top: 110px !important;
+    }
+
+    .title {
+        padding-top: 20px;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .for-icon i {
+        color: #1d495b;
+        font-weight: 500;
+        font-size: 21px;
+    }
+
+    .for-rotavdrag {
+        min-height: 557px;
+    }
+
+    .card-title {
+        margin: 0;
+        text-align: center;
+    }
+
+    .vara {
+        font-size: 15px;
+    }
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .for-icon .title {
+        padding-top: 0;
+        margin-left: 10px;
+    }
+
+    .globeCont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .overlay a {
+        font-size: 19px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .box-for-vara {
+        background-color: lightgrey;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        min-height: 386px;
+    }
+
+    .home-intro-content h1 {
+        font-size: 37px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .home-intro-content {
+        padding: 9em 0;
+    }
+
+    .home-intro-content button {
+        width: 161px;
+        font-size: 15px;
+        height: 36px;
+    }
+
+    .rotav-img {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .card-body {
+        height: 63px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .offert .col-75 {
+        float: left;
+        width: 495px;
+        margin-right: 22px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .for-rotavdrag {
+        min-height: 570px;
+    }
+
+    .main {
+        background-color: #f1f1f1;
+        padding-left: 72px;
+        padding-right: 30px;
+    }
+
+    .for-rotavdrag {
+        height: 568px;
+    }
+
+    .om_oss {
+        padding-left: 70px;
+        padding-right: 60px;
+        height: 560px;
+    }
+
+    .footer {
+        height: 650px;
+    }
+
+    .main-h {
+        margin-bottom: 59px;
+        font-size: 35px;
+    }
+
+    .main-p {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .main-btn {
+        width: 185px;
+        font-size: 17px;
+        margin-top: 25px;
+        height: 38px;
+    }
+
+    .carousel-caption {
+        top: 125px !important;
+    }
+
+    .title {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .card-title {
+        margin: 0;
+        text-align: center;
+    }
+
+    .vara {
+        font-size: 15px;
+    }
+
+    .card-body {
+        padding-top: 22px;
+        padding-bottom: 9px;
+    }
+
+    .for-icon .title {
+        padding-top: 0;
+        margin-left: 10px;
+    }
+
+    .home-intro-content {
+        padding: 5em 0;
+    }
+}
+
+@media (min-width: 1301px) {
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        padding: 0;
+    }
+
+    .offert .col-75 {
+        float: left;
+        width: 495px;
+        margin-right: 22px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .for-rotavdrag {
+        min-height: 570px;
+    }
+
+    .home-intro-content {
+        padding: 6em 0;
+    }
+
+    .home-intro-content h1 {
+        font-size: 38px;
+        display: block;
+        margin: 5px auto 25px;
+    }
+
+    .home-intro-content p {
+        font-size: 25px;
+    }
+
+    .card-body {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .main {
+        padding-left: 70px;
+        padding-right: 60px;
+    }
+
+    .home-intro-content button {
+        height: 40px;
+        width: 175px;
+        border-radius: 10px;
+        font-size: 17px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .main-h {
+        margin-bottom: 59px;
+        font-size: 30px;
+    }
+
+    .main-p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .main-btn {
+        width: 185px;
+        font-size: 17px;
+        margin-top: 55px;
+        height: 38px;
+    }
+
+    .carousel-caption {
+        top: 125px !important;
+    }
+
+    .title {
+        padding-top: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 36px;
+    }
+
+    .card-title {
+        margin: 0;
+        text-align: center;
+    }
+
+    .vara {
+        font-size: 15px;
+    }
+
+
+    .for-icon .title {
+        padding-top: 0;
+        margin-left: 10px;
+    }
+
+    .rotav-img {
+        border-radius: 5px;
+        height: 245px;
+        margin-top: 20px;
+    }
+
+    .for-omOssOne {
+        height: 69px;
+        margin-top: 20px;
+    }
+
+    .for-omOssTwo {
+        height: 146px;
+        margin-left: 20px;
+        margin-top: -28px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .rotav-img {
+        border-radius: 5px;
+        height: 245px;
+        margin-top: 20px;
+    }
+
+    .for-omOssTwo {
+        height: 146px;
+        margin-left: 20px;
+        margin-top: -28px;
+    }
+
+    .for-omOssOne {
+        height: 69px;
+        margin-top: 20px;
+    }
+
+    .box-for-vara .card-body {
+        margin-top: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        height: 123px;
+    }
+
+    .main {
+        padding-left: 70px;
+        padding-right: 60px;
+        height: 923px;
+    }
+
+    .main-h {
+        margin-bottom: 70px;
+        font-size: 43px;
+    }
+
+    .main-p {
+        font-size: 25px;
+        line-height: 41px;
+    }
+
+    .main-btn {
+        width: 221px;
+        font-size: 20px;
+        margin-top: 55px;
+        height: 44px;
+    }
+
+    .carousel-caption {
+        top: 215px !important;
+    }
+
+    .title {
+        padding-top: 45px;
+        font-size: 25px;
+    }
+
+    .box-for-valkommen p {
+        font-size: 23px;
+        line-height: 46px;
+        width: 1400px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .home-intro-content h1 {
+        font-size: 50px;
+        margin-bottom: 120px;
+    }
+
+    .home-intro-content p {
+        font-size: 40px;
+        line-height: 55px;
+        margin-bottom: 55px;
+    }
+
+    .home-intro-content {
+        padding: 24em 0;
+        text-align: center;
+    }
+
+    .home-intro-content button {
+        height: 49px;
+        width: 226px;
+        font-size: 22px;
+
+    }
+
+    .for-varaBlock {
+        background-color: white !important;
+    }
+
+    .main p {
+        font-size: 22px !important;
+    }
+
+    .for-imgBlock {
+        height: 240px;
+    }
+
+    .for-rotavdrag {
+        height: 921px;
+    }
+
+    .for-omOssOne {
+        height: 92px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .for-omOssTwo {
+        height: 190px;
+        margin-left: 20px;
+        margin-top: -28px;
+    }
+
+    .om_oss .row {
+        padding-bottom: 30px !important;
+    }
+
+    .om_oss {
+        height: 924px;
+    }
+
+    .footer {
+        height: 1014px;
+    }
+
+    .section {
+        height: 383px;
+    }
+
+    textarea.form-control {
+        height: 100px;
+    }
+
+    .title {
+        padding-top: 45px;
+        font-size: 28px;
+    }
+
+    .varaItem .row {
+        padding-bottom: 50px !important;
+    }
+
+    p {
+        font-size: 21px;
+        line-height: 46px;
+    }
+
+    .card-title {
+        margin: 0;
+        text-align: center;
+    }
+
+    .card a {
+        text-decoration: none;
+    }
+
+    .vara {
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+    .card-body {
+        padding-top: 48px;
+        padding-bottom: 9px;
+    }
+
+    .for-icon .title {
+        padding-top: 0;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 2560px) {
+
+    .for-imgBlock {
+        height: 270px;
+        border-radius: 5px;
+        padding: 0;
+        /* margin: 0; */
+    }
+
+    .rotav-img {
+        border-radius: 5px;
+        height: 325px;
+        margin-top: 20px;
+    }
+
+    .main p {
+        font-size: 25px !important;
+    }
+
+    .home-intro-content h1 {
+        font-size: 64px;
+        width: 478px;
+    }
+
+    .portfolio-item .img-fluid {
+        /* max-width: 100%; */
+        height: auto;
+        border-radius: 5px;
+        padding: 0;
+        width: 543px;
+    }
+
+    .home-intro-content p {
+        margin-top: 70px;
+        font-size: 35px;
+        line-height: 52px;
+        margin-bottom: 65px;
+    }
+
+    .home-intro-content button {
+        height: 53px;
+        width: 255px;
+        font-size: 25px;
+    }
+
+    .box-for-vara .card-body {
+        height: 123px;
+        /* padding-top: 64px; */
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .for-icon .title {
+        font-size: 30px;
+
+    }
+
+    .main {
+        padding-left: 70px;
+        padding-right: 60px;
+    }
+
+    .main-h {
+        margin-bottom: 70px;
+        font-size: 65px;
+    }
+
+    .main-p {
+        font-size: 40px;
+        line-height: 61px;
+    }
+
+    .main-btn {
+        width: 221px;
+        font-size: 20px;
+        margin-top: 55px;
+        height: 44px;
+    }
+
+    .carousel-caption {
+        top: 315px !important;
+    }
+
+    .title {
+        padding-top: 45px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .box-for-valkommen p {
+        font-size: 25px;
+        line-height: 46px;
+        width: 1400px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 23px;
+        line-height: 46px;
+    }
+
+    .card-title {
+        margin: 0;
+        text-align: center;
+    }
+
+    .card a {
+        text-decoration: none;
+    }
+
+    .vara {
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .for-icon i {
+        color: #1d495b;
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+    .card-body {
+        padding-top: 48px;
+        padding-bottom: 9px;
+    }
+
+    .for-icon .title {
+        padding-top: 0;
+        margin-left: 10px;
+    }
+
+    .main {
+        height: 1000px;
+    }
+}
+
+/*-------------------------------------------------
+                      carusel
+--------------------------------------------------*/
+@media (min-width: 320px) {
+    .sliderBlock {
+        height: 460px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: 319px !important;
+    }
+
+    .sliderTitle {
+        height: 50px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .auther {
+        font-size: 15px;
+    }
+
+    .sliderItem {
+        background-color: white;
+        padding: 2px;
+        min-height: 313px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: 329px !important;
+    }
+
+    .sliderBlock hr {
+        margin-bottom: 15px;
+    }
+
+    .carousel-item {
+        height: 330px;
+    }
+
+    .sliderItem p {
+        font-size: 14px;
+        margin: 5px;
+        line-height: 25px;
+    }
+
+    .responsiveCarousel {
+        display: none;
+    }
+
+    .mobileCarousel {
+        display: block;
+    }
+}
+
+@media (min-width: 360px) {
+    .sliderBlock {
+        height: 440px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: 315px !important;
+    }
+
+    .sliderTitle {
+        height: 60px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .auther {
+        font-size: 15px;
+    }
+
+    .sliderItem {
+        background-color: white;
+        padding: 2px;
+        min-height: 270px;
+        margin-top: 25px;
+    }
+
+    .sliderBlock hr {
+        margin-bottom: 15px;
+    }
+
+    .carousel-item {
+        height: 330px;
+    }
+
+    .sliderItem p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .responsiveCarousel {
+        display: none;
+    }
+
+    .mobileCarousel {
+        display: block;
+    }
+}
+
+@media (min-width: 411px) {
+    .sliderBlock {
+        height: 440px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: 315px !important;
+    }
+
+    .sliderTitle {
+        height: 60px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .auther {
+        font-size: 15px;
+    }
+
+    .sliderItem {
+        background-color: white;
+        padding: 7px;
+        min-height: 286px;
+        margin-top: 25px;
+    }
+
+    .sliderBlock hr {
+        margin-bottom: 15px;
+    }
+
+    .carousel-item {
+        height: 330px;
+    }
+
+    .sliderItem p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .responsiveCarousel {
+        display: none;
+    }
+
+    .mobileCarousel {
+        display: block;
+    }
+}
+
+@media (min-width: 480px) {
+    .sliderBlock {
+        height: 440px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: 315px !important;
+    }
+
+    .sliderTitle {
+        height: 60px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .auther {
+        font-size: 15px;
+    }
+
+    .sliderItem {
+        background-color: white;
+        padding: 7px;
+        min-height: 270px;
+        margin-top: 25px;
+    }
+
+    .sliderBlock hr {
+        margin-bottom: 15px;
+    }
+
+    .carousel-item {
+        height: 330px;
+    }
+
+    .sliderItem p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .responsiveCarousel {
+        display: none;
+    }
+
+    .mobileCarousel {
+        display: block;
+    }
+}
+
+@media (min-width: 600px) {
+    .sliderBlock {
+        height: 440px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: 315px !important;
+    }
+
+    .sliderTitle {
+        height: 60px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .auther {
+        font-size: 17px;
+    }
+
+    .sliderItem {
+        background-color: white;
+        padding: 7px;
+        min-height: 270px;
+        margin-top: 25px;
+    }
+
+    .sliderBlock hr {
+        margin-bottom: 15px;
+    }
+
+    .carousel-item {
+        height: 330px;
+    }
+
+    .sliderItem p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .responsiveCarousel {
+        display: none;
+    }
+
+    .mobileCarousel {
+        display: block;
+    }
+}
+
+@media (min-width: 800px) {
+    .sliderBlock {
+        height: 370px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: 275px !important;
+    }
+
+    .sliderTitle {
+        height: 60px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .auther {
+        font-size: 17px;
+    }
+
+    .sliderItem {
+        background-color: white;
+        padding: 7px;
+        min-height: 200px;
+        margin-top: 45px;
+    }
+
+    .sliderBlock hr {
+        margin-bottom: 15px;
+    }
+
+    .carousel-item {
+        height: 330px;
+    }
+
+    .sliderItem p {
+        font-size: 16px;
+    }
+
+    .responsiveCarousel {
+        display: none;
+    }
+
+    .mobileCarousel {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .sliderBlock {
+        height: 468px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: 365px !important;
+    }
+
+    .carousel-control-next {
+        right: 0;
+        height: 370px;
+        width: 60px;
+    }
+
+    .carousel-control-prev {
+        right: 0;
+        height: 370px;
+        width: 60px;
+    }
+
+    .carousel-item {
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .carousel-inner {
+        margin-top: -75px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .sliderItem {
+        background-color: white;
+        margin: 20px;
+        height: 400px;
+    }
+
+    .sliderItem p {
+        font-size: 13px;
+        margin: 10px;
+        line-height: 20px;
+        width: 230px;
+    }
+
+    .responsiveCarousel {
+        display: block;
+    }
+
+    .mobileCarousel {
+        display: none;
+    }
+}
+
+@media (min-width: 1100px) {
+    .carousel-control-next {
+        right: 0;
+        height: 370px;
+        width: 140px;
+    }
+
+    .carousel-control-prev {
+        right: 0;
+        height: 370px;
+        width: 140px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .row {
+        margin: 0;
+    }
+
+    .sliderItem {
+        background-color: white;
+        height: 340px;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+    .sliderItem p {
+        font-size: 16px;
+        margin: 10px;
+        line-height: 21px;
+        width: 280px;
+    }
+
+    .carousel-control-prev {
+        right: 0;
+        height: 380px;
+        width: 105px;
+    }
+
+    .carousel-control-next {
+        right: 0;
+        height: 380px;
+        width: 105px;
+    }
+
+    .responsiveCarousel {
+        display: block;
+    }
+
+    .mobileCarousel {
+        display: none;
+    }
+}
+
+@media (min-width: 1920px) {
+    .sliderItem p {
+        font-size: 15px;
+        line-height: 30px;
+        font-family: sans-serif;
+        width: 390px;
+    }
+
+    .sliderItem i {
+        font-size: 20px;
+    }
+
+    .carousel-control-prev {
+        right: 0;
+        height: 380px;
+        width: 260px;
+    }
+
+    .carousel-control-next {
+        right: 0;
+        height: 380px;
+        width: 260px;
+    }
+
+    .sliderBlock {
+        height: 490px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .sliderItem p {
+        font-size: 20px;
+        line-height: 35px;
+        font-family: sans-serif;
+        width: 280px;
+    }
+
+    .sliderItem i {
+        font-size: 25px;
+    }
+
+    .sliderBlock {
+        height: 535px;
+    }
+
+    .carousel-control-prev {
+        right: 0;
+        height: 309px;
+        width: 374px;
+    }
+
+    .carousel-control-next {
+        right: 0;
+        height: 309px;
+        width: 374px;
+    }
+}
+
+/*----------------------------
+           vara
+------------------------------*/
+@media (min-width: 768px) {
+    .reverseRow {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        align-items: center;
+    }
+
+    .footer .col-md-4 {
+        display: block;
+    }
+
+    .col-md-4 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main p {
+        text-align: center !important;
+
+    }
+
+    .main h1 {
+        text-align: center !important;
+    }
+}
+
+
+/*----------------------------
+           om oss
+------------------------------*/
+@media (max-width: 767px) {
+    .reverseRowOmOss {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+}
+
+/*----------------------------
+            FOOTER
+------------------------------*/
+@media (min-width: 320px)and (max-width: 767px) {
+
+    #footer ul.icons li {
+        padding: 0 1em 0 0;
+    }
+
+    #footer .footerSection .icons a i {
+        font-size: 18px;
+    }
+
+    #footer ul.icons li {
+        padding: 0 1em 0 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #footer ul.icons li {
+        padding: 0 1em 0 0;
+    }
+
+    #footer .footerSection .icons a i {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1980px) {
+
+    #footer ul.icons li {
+        padding: 0 1em 0 0;
+    }
+
+    #footer .footerSection .icons a i {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 2560px) {
+    #footer {
+        background-color: lightgray;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 85px;
+    }
+}
+
+
+/*----------------------------------------------------------
+ media for golvlaggning & flyttstadning & koksrenovering
+ ------------------------------------------------------------*/
+@media (min-width: 320px) and (max-width: 1024px){
+    .golvmain{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 410px ) and (max-width: 600px) {
+    .flylist{
+        width: 350px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .golvimg{
+        margin-top: 20px;
+    }
+
+    .golvmain p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600
+    }
+    .golvmain h1 {
+        text-align: center;
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 872px) {
+    .golvimg {
+        margin-top: 70px;
+    }
+    .golvmain p{
+        font-size: 16px;
+    }
+    .golvmain h1 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 873px) and (max-width: 965px) {
+    .golvimg {
+        margin-top: 30px;
+    }
+    .golvmain p{
+        font-size: 16px;
+    }
+    .golvmain h1 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 966px) and (max-width: 992px) {
+    .golvimg {
+        margin-top: 30px;
+        width: 414px;
+    }
+    .golvmain p{
+        font-size: 16px;
+    }
+    .golvmain h1 {
+        font-size: 18px;
+    }
+    .flylist{
+        height: 1155px;
+    }
+    .kokimg {
+        margin-top: 55px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1196px) {
+    .golvimg {
+        margin-top: 30px;
+        width: 296px;
+    }
+    .golvmain p{
+        font-size: 16px;
+    }
+    .golvmain h1 {
+        font-size: 18px;
+    }
+    .kokimg {
+        margin-top: 45px;
+    }
+    .golvmain ul li{
+        font-size: 15px!important;
+    }
+    .flylist{
+        height: 1100px;
+    }
+}
+
+@media (min-width: 1197px) and (max-width: 1400px) {
+    .golvimg {
+        margin-top: 30px;
+        width: 330px;
+    }
+    .golvmain p{
+        font-size: 16px;
+    }
+    .golvmain h1{
+        font-size: 19px;
+    }
+    .flylist{
+        height: 1120px;
+    }
+    .kokimg {
+        margin-top: 55px;
+        width: 480px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 1401px) and (max-width: 1500px) {
+    .golvimg {
+        margin-top: 30px;
+        width: 336px;
+    }
+    .kokimg {
+        margin-top: 55px;
+        width: 480px;
+        margin-left: 50px;
+    }
+    .golvmain p{
+        font-size: 17px;
+    }
+    .golvmain h1{
+        font-size: 20px;
+    }
+    .golvmain ul li{
+        font-size: 16px!important;
+    }
+    .flylist{
+        height: 1120px;
+    }
+}
+
+@media (min-width: 1501px) {
+    .golvimg {
+        margin-top: 30px;
+        width: 411px;
+    }
+    .kokimg {
+        margin-top: 55px;
+        width: 510px;
+        margin-left: 70px;
+    }
+    .golvmain p{
+        font-size: 17px;
+    }
+    .golvmain h1{
+        font-size: 20px;
+    }
+    .flylist{
+        height: 1120px;
+    }
+}
+
+@media (min-width: 1601px) {
+    .kokimg {
+        margin-top: 38px;
+        width: 480px;
+        margin-left: 115px;
+    }
+    .golvmain p{
+        font-size: 17px;
+    }
+    .golvmain h1{
+        font-size: 20px;
+    }
+    .flylist{
+        height: 1120px;
+    }
+}
+
+@media (min-width: 1950px) {
+    .golvimg{
+        width: 400px;
+    }
+    .kokimg {
+        margin-top: 41px;
+        width: 547px;
+        margin-left: 131px;
+    }
+    .golvmain p{
+        font-size: 22px;
+    }
+    .golvmain h1{
+        font-size: 28px;
+    }
+    .flylist{
+        height: 1120px;
+    }
+}
