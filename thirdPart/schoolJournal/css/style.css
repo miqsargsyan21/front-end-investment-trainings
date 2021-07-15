@@ -1,0 +1,59 @@
+.col-4 input {
+    width: 100% !important;
+}
+
+#rowRegisterDiv input {
+    width: 90px;
+}
+
+#inputData {
+    width: 100px !important;
+}
+
+#registerDiv {
+    margin-top: 10px;
+}
+
+.actionPerson {
+    cursor: pointer;
+}
+
+input {
+    height: 40px;
+    margin-top: 5px !important;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none; 
+}
+
+#mainDivForm {
+    width: 50%;
+    background-color: rgba(149, 177, 216, 0.8);
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    border-radius: 50px;
+}
+
+.inputForm {
+    width: 100%;
+}
+
+.gradeAndAge {
+    width: 90px !important;
+}
+
+#inputDataForm {
+    width: 100px; 
+}
+
+#submitDivForm {
+    margin-bottom: 10px;
+}
+
+#mainDivForm div {
+    margin-top: 10px; 
+}
