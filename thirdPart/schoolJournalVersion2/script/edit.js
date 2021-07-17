@@ -97,6 +97,7 @@ function processEditing (ids) {
             document.getElementsByClassName(('col' + String(ids)))[3].innerText = userGrade.value;
         } else {
             alert('Input right data!');    
+	    editingMember(ids);
         }
 
         learnersData[ids - 1].name = userName.value;
@@ -106,6 +107,7 @@ function processEditing (ids) {
 
     } else {
         alert('Input all data!');
+	editingMember(ids);
     }
 
     document.getElementsByTagName('body')[0].removeChild(document.getElementById('mainDivForm'));
