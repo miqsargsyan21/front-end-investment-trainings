@@ -1,0 +1,409 @@
+#bg-video {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-image: url(../images/tm-astro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Start tab styling */
+.tab {
+    overflow: hidden;
+    width: 868px;
+    float: right;
+}
+
+#tab-responsive {
+    float: right;
+    color: white;
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    display: none;
+}
+
+#tab-responsive li {
+    list-style: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#tab-responsive li:hover {
+    color: green;
+    border-color: green;
+}
+
+#tab-responsive li:hover .circleOfButton-r {
+    background-color: green;
+}
+
+.hidden-links {
+    display: none;
+    position: absolute;
+    width: 88px;
+    z-index: 100;
+}
+
+.hidden-links[onclick = "openPage(event, Gallery)"] {
+    margin-top: 40px;
+}
+
+.hidden-links[onclick = "openPage(event, About)"] {
+    margin-top: 80px;
+}
+
+.hidden-links[onclick = "openPage(event, Contact)"] {
+    margin-top: 120px;
+}
+
+#tab-responsive:hover .hidden-links {
+    display: block;
+}
+
+.circleOfButton-r {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 50px;
+  transition: 0.3s;
+  font-size: 25px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin: 5px 20px;
+}
+
+.tablinks:hover button {
+    color: green;
+    border-color: green;
+}
+
+.tablinks:hover .circleOfButton {
+    background-color: green;
+}
+
+.tabcontent {
+    width: 80%;
+    margin: 30px auto;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    left: 10%;
+}
+
+.circleOfButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+}
+
+#circle1 {
+    margin-left: 97px;
+    margin-top: 61px;
+}
+
+#circle2 {
+    margin-left: 310px;
+    margin-top: 61px;
+}
+
+#circle3 {
+    margin-left: 530px;
+    margin-top: 61px;
+}
+
+#circle4 {
+    margin-left: 750px;
+    margin-top: 61px;
+}
+/* End tab styling */
+
+/* Start Home styling */
+#divOfTitle {
+    color: white;
+    width: 207px;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 34px;
+    float: left;
+}
+
+#headOfSite {
+    margin-top: 10px !important;
+    overflow: hidden;
+}
+
+#circle21, #circle31, #circle41 {
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+#circle22, #circle32, #circle42 {
+    position: relative;
+    left: calc(100% - 10px);
+    top: -30px;
+}
+
+#circle23, #circle43{
+    position: relative;
+    left: -10px;
+    top: 30px;
+}
+
+#circle24, #circle44 {
+    position: relative;
+    left: calc(100% - 10px);
+    top: 10px;
+}
+
+#homeFirstConatainer {
+    color: white;
+    padding: 40px;
+    background-color: black;
+    opacity: 0.3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+#homeSecondConatainer {
+    width: 50%;
+    margin-top: 20px;
+}
+
+#homeSecondConatainer img {
+    height: 50%;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.greenTexts {
+    color: green;
+}
+/* End Home styling */
+
+/* Start Gallery styling */
+#Gallery {
+    border-top: 1px solid white;
+    border-bottom: 0;
+    width: 95%;
+    margin: 40px auto;
+}
+
+.mySlides, .mySlides-r {
+    display: none;
+}
+
+.dot {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-fill-mode: forwards; 
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; 
+}
+
+.mainSlide {
+    overflow: hidden;
+}
+ 
+.mainSlide-r {
+    display: block !important;
+}
+
+.slideshow-container {
+    overflow: hidden;
+}
+  
+.img-container {
+    width: 18%;
+    float: left;
+    overflow: hidden;
+}
+
+.img-container-r {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+
+#slide-gallery-r {
+    display: none;
+}
+
+/* End Gallery styling */
+
+/* Start About styling */
+#mainDivAbout {
+    width: 95%;
+    margin: 20px auto;
+    padding: 50px 30px;
+    color: white;
+    background-color: black;
+    opacity: 0.4;
+}
+
+#mainDivAbout p {
+    margin-top: 30px;
+}
+
+#About {
+    width: 60%;
+}
+/* End About styling */
+
+/* Start Contact styling */
+#Contact {
+    border: 0px;
+    width: 70%;
+    overflow: hidden;
+}
+
+#left-contain, #right-contain {
+    width: 45%;
+}
+
+#left-contain {
+    float: left;
+}
+
+#right-contain {
+    float: right;
+}
+
+#left-contain input[type = "text"], #left-contain input[type = "email"], #left-contain textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid white;
+    caret-color: white;
+    padding: 20px 5px;
+}
+
+#left-contain input::placeholder, #left-contain textarea::placeholder {
+    color: white;
+}
+
+#left-contain textarea {
+    min-height: 150px;
+}
+
+#left-contain input[type = "text"]:focus, #left-contain input[type = "email"]:focus, #left-contain textarea:focus {
+    outline: none;
+    border-color: green;
+}
+
+#left-contain input[type = "button"] {
+    padding: 10px 15px;
+    width: 30%;
+    margin-left: 65%;
+}
+
+#left-contain input[type = "button"]:hover {
+    color: green;
+}
+
+#map-contact {
+    width: 100%;
+    height: 200px;
+}
+
+#right-contain {
+    color: white;
+}
+
+#right-contain a {
+    text-decoration: none;
+    color: white;
+}
+
+#right-contain a:hover {
+    color: green;
+}
+
+#right-contain p {
+    opacity: 0.5;
+}
+/* End Contact styling */
+
+/* Start Footer styling */
+#footer {
+    overflow: hidden;
+    color: white;
+}
+
+#footer p {
+    margin: 15px;
+}
+
+#left-footer {
+    float: left;
+    width: 60%;
+}
+
+#right-footer {
+    float: right;
+    width: 40%;
+}
+
+#right-footer p {
+    text-align: end;
+}
+/* End Footer styling */
